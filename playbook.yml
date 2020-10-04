@@ -1,6 +1,6 @@
 ---
 - name: Ping play
-  hosts: proxy
+  hosts: proxy-servers
   tasks:
       - name: Run ping
         ping:
