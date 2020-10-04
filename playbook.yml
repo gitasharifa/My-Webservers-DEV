@@ -1,6 +1,6 @@
 ---
 - name: Ping play
-  hosts: proxy-servers
+  hosts: managed-node-1
   tasks:
       - name: Run ping
         ping:
