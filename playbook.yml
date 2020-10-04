@@ -1,0 +1,6 @@
+---
+- name: Ping play
+  hosts: all
+  tasks:
+      - name: Run ping
+        ping:
